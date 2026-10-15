@@ -1,0 +1,22 @@
+.spline-wrapper {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: auto;
+  overflow: hidden;
+  isolation: isolate; /* Creates its own stacking context */
+}
+
+/* Force all Spline children to the very back */
+.spline-wrapper canvas,
+.spline-wrapper iframe,
+.spline-wrapper div {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;  /* 🔥 Ensures Spline stays behind everything */
+}

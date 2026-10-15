@@ -1,0 +1,6 @@
+C101,Tesla,Model 3,luxury,150.0,20.0,TSL-001,0
+C102,Honda,Civic,economy,90.0,10.0,HND-123,1
+C103,Ford,Raptor,suv,180.0,25.0,FRD-456,1
+C104,Toyota,Camry,economy,95.0,10.0,TYT-789,1
+C105,BMW,M4,luxury,220.0,30.0,BMW-999,1
+C106,Hyundai,Creta,suv,110.0,15.0,HYU-555,1
